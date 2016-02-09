@@ -7,7 +7,7 @@ app = Flask(__name__)
 # 	return 'Hello World!'
 
 def hello():
-	return render_template('template1.html')	
+	return render_template('/templates/template1.html')	
 	
 if __name__ == '__main__': 
 	app.run()
